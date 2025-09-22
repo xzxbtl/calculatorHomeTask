@@ -75,7 +75,7 @@ def _calculate(values: list, type_operation: str = "+") -> str:
 def choose_type_input() -> int:
     number = None
 
-    msg = (f"Выберите формат ввода : \n"
+    msg = (f"Выберите формат ввода \n"
            f"1 - Ввод чисел с новой строки далее знак \n"
            f"2 - Ввод чисел выражением (пример : 10 + 5) \n"
            f"0 - Выход \n"
